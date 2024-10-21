@@ -8,7 +8,7 @@ server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
  
 # 获取本地机器上的IP和端口
 host = '35.201.127.49'
-port = 26598
+port = 26597
  
 # 绑定socket到端口
 server_socket.bind((host, port))
