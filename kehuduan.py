@@ -7,7 +7,7 @@ page = st.sidebar.radio("我的主页", ["主页"])
 server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
  
 # 获取本地机器上的IP和端口
-host = '35.201.127.49'
+host = '127.0.0.1'
 port = 2655
  
 # 绑定socket到端口
